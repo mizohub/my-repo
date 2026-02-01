@@ -1,0 +1,7 @@
+name: YAML Error
+on: [push]
+jobs:
+  yaml-error:
+    runs-on: ubuntu-latest
+    steps:
+  - run: echo "This workflow has a YAML syntax error"
